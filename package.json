@@ -1,7 +1,5 @@
 {
   "dependencies": {
-  "name": "profile express js",
-  "version": "1.0.0",
   "scripts": {
     "start": "nodemon app.js"
   },
