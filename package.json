@@ -3,7 +3,7 @@
   "name": "profile express js",
   "version": "1.0.0",
   "scripts": {
-    "start": "node app.js"
+    "start": "nodemon app.js"
   },
     "bootstrap": "^5.3.2",
     "ejs": "^3.1.9",
