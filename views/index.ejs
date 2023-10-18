@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html class="html" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/js/bootstrap.min.js" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <title>Profile</title>
+  </head>
+  <body class="body">
+    <div class="content">
+      <div class="position-relative">
+        <div class="position-fixed top-0 w-100 z-3 navWrapper" id="navWrapper">
+          <nav class="navbar navbar-expand-lg">
+            <div
+              class="container-fluid container d-lg-flex justify-content-between"
+            >
+              <div class="navbox">
+                <a class="navbar-brand" href="#"
+                  ><img src="/img/logo/logo.svg" alt=""
+                /></a>
+              </div>
+              <div>
+                <button
+                  class="navbar-toggler border-0 shadow-none"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarNav"
+                  aria-controls="navbarNav"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="burger">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-list"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+                      />
+                    </svg>
+                  </span>
+                </button>
+              </div>
+
+              <div class="collapse navbar-collapse box" id="navbarNav">
+                <ul
+                  class="navbar-nav justify-content-between d-lg-flex"
+                  style="font-family: Inter"
+                >
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#aboutme">About Me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#service">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#portofolio">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#template">Template</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+
+        <div>
+          <div class="position-absolute box-circle z-0">
+            <div
+              class="circel-big-1 position-absolute z-0"
+              style="left: -100px"
+            ></div>
+            <div
+              class="circel-big-2 position-absolute z-0"
+              style="right: -100px; top: 500px"
+            ></div>
+            <div
+              class="circel-small-1 position-absolute z-0"
+              style="right: 30%; top: 10%"
+            ></div>
+            <div
+              class="circel-small-2 position-absolute z-0"
+              style="left: 15%; top: 35%"
+            ></div>
+            <div
+              class="circel-small-2 position-absolute z-0"
+              style="left: 50%; top: 80%"
+            ></div>
+            <div
+              class="circel-small-1 position-absolute z-0"
+              style="left: 30%; top: 90%"
+            ></div>
+          </div>
+          <div class="blur position-relative z-1">
+            <!-- home -->
+            <div class="container-in" id="home">
+              <div class="d-flex w-100 container gap-2">
+                <div
+                  class="min-vh-100 d-flex w-100 align-items-end justify-content-center"
+                >
+                  <img
+                    class="image-size"
+                    src="/img/images/home_photo.png"
+                    alt="Photo Fadli 1"
+                  />
+                </div>
+                <div class="box absolute d-flex align-items-center">
+                  <div class="" style="margin-top: 300px">
+                    <div class="fs-5 fw-medium">
+                      Hi, i Am <br />
+                      Muhamad Fadli
+                    </div>
+                    <div>
+                      <p class="fw-bold fs-1 mt-3 lh-1 neon text-gradient">
+                        WEB DESIGNER <br />
+                        & WEB DEVELOPER
+                      </p>
+                    </div>
+                    <div class="d-flex">
+                      <a href="" style="text-decoration: none">
+                        <div
+                          class="py-1 px-3 rounded-4 bg-linear-1 text-white fw-medium shadow-lg resume"
+                        >
+                          Resume
+                        </div>
+                      </a>
+                      <a href="" class="" style="text-decoration: none">
+                        <div
+                          class="py-1 px-3 rounded-4 bg-linear-2 ms-2 text-white fw-medium shadow-lg"
+                        >
+                          Download CV
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- aboutme -->
+
+            <div class="container-in container mt-5" id="aboutme">
+              <div class="">
+                <div>
+                  <p class="fs-5 fw-bold text-center">About Me</p>
+                </div>
+                <div class="d-flex align-content-center gap-2 reverse-column">
+                  <div class="box mt-2 mt-lg-0" style="text-align: justify">
+                    <p>Hello, <b>I'm Muhamad Fadli.</b></p>
+
+                    <p>
+                      I am a student in the field of IT with a strong passion
+                      for web development. As an aspiring web developer, I have
+                      been delving into various coding languages and frameworks,
+                      crafting digital solutions that seamlessly merge
+                      creativity and functionality.
+                    </p>
+
+                    <p>
+                      On regular days, you can find me either immersed in lines
+                      of code or outdoors pursuing my active hobbies. I am an
+                      ardent futsal player, relishing the thrill of teamwork on
+                      the field. When not scoring goals, I'm either out for a
+                      run, enjoying the liberating sensation of the wind against
+                      my face, or engrossed in a good book, exploring the
+                      boundless worlds within its pages.
+                    </p>
+
+                    <p>
+                      I firmly believe that every line of code is a reflection
+                      of our thought processes, capable of shaping the virtual
+                      world we navigate. With unwavering dedication and an
+                      insatiable thirst for knowledge, I am determined to forge
+                      innovative solutions that make a meaningful impact in the
+                      world of technology.
+                    </p>
+
+                    <p>
+                      If you'd like to connect, collaborate, or simply share
+                      insights, please don't hesitate to reach out at +62 813
+                      4395 5979. I'm always open to new ideas and opportunities
+                      to learn and grow.
+                    </p>
+
+                    <p>
+                      Thank you for taking the time to visit my profile. I look
+                      forward to the chance of sharing experiences, ideas, and
+                      perhaps even codes with you in the future.
+                    </p>
+                  </div>
+                  <div
+                    class="box bg-body-secondary d-flex justify-content-center align-items-end box-shadow border border-1 border-dark-subtle"
+                  >
+                    <img
+                      style="width: 60%"
+                      src="/img/images/about_photo.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- service -->
+            <div
+              class="container-in container mt-5 mt-lg-0"
+              style="font-family: 'Inter'"
+              id="service"
+            >
+              <div class="w-100">
+                <div><p class="fs-5 fw-bold text-center">Service</p></div>
+                <div>
+                  <p class="text-center">
+                    Here are some of the services i can offer
+                  </p>
+                </div>
+                <div class="container-service w-100">
+                  <div class="service">
+                    <img src="/img/images/services/pro.jpeg" alt="" />
+                    <div class="title-box position-absolute top-0 container">
+                      <div class="py-lg-4 py-2" style="font-family: 'Inter'">
+                        <p class="fs-4 fw-bolder text-white">
+                          <i class="bi bi-braces"></i><br />
+                          Web Developer
+                        </p>
+                        <p
+                          class="text-white"
+                          style="text-align: justify; font-size: 13px"
+                        >
+                          "Delivering innovative web development solutions. Our
+                          offerings include responsive design, custom
+                          development, and performance optimization. Maintenance
+                          support and SEO focus ensure impressive outcomes.
+                          Transform your digital vision into reality with our
+                          reliable services."
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="service">
+                    <img src="/img/images/services/pro.jpeg" alt="" />
+                    <div class="title-box position-absolute top-0 container">
+                      <div class="py-lg-4 py-2" style="font-family: 'Inter'">
+                        <p class="fs-4 fw-bolder text-white">
+                          <i class="fa-solid fa-pen-nib"></i><br />
+                          Web Designer
+                        </p>
+                        <p
+                          class="text-white"
+                          style="text-align: justify; font-size: 13px"
+                        >
+                          "Crafting captivating web designs that leave a lasting
+                          impression. We blend creativity with user-centric
+                          layouts, delivering seamless navigation and visual
+                          appeal. Elevate your online presence with our design
+                          expertise."
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="service">
+                    <img src="/img/images/services/pro.jpeg" alt="" />
+                    <div class="title-box position-absolute top-0 container">
+                      <div class="py-lg-4 py-2" style="font-family: 'Inter'">
+                        <p class="fs-4 fw-bolder text-white">
+                          <i class="fa-solid fa-bug"></i><br />
+                          Debugger
+                        </p>
+                        <p
+                          class="text-white"
+                          style="text-align: justify; font-size: 13px"
+                        >
+                          "Mastering the art of debugging. We identify, analyze,
+                          and resolve intricate issues in code efficiently.
+                          Streamlining performance and ensuring smooth
+                          functionality. Trust us to fine-tune your digital
+                          experience."
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- project -->
+            <div
+              class="container-in container mt-5 mt-lg-0 mt-sm-5"
+              style="font-family: 'Inter'"
+              id="portofolio"
+            >
+              <div>
+                <div>
+                  <div><p class="fs-3 fw-bold text-center">Portofolio</p></div>
+                  <div class="d-lg-flex align-content-center gap-2">
+                    <div class="box d-flex justify-content-center">
+                      <img
+                        class="photo-sertificate"
+                        src="/img/images/sertificate/img_3.png"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      class="box d-flex align-center-vertikal mt-3 mt-lg-0 mt-sm-3"
+                    >
+                      <div style="text-align: justify">
+                        <p><b>Sertificate</b></p>
+                        <p>
+                          The Junior Web Developer Competency Certificate from
+                          BNSP Indonesia and LSP Informatika signifies an
+                          official recognition of my abilities and skills in the
+                          field of web development. This certificate affirms
+                          that I have met the competency standards set by the
+                          relevant certification authorities.
+                        </p>
+
+                        <p>
+                          With this certificate, I am acknowledged to possess
+                          the necessary knowledge and proficiency to be a
+                          competent Junior Web Developer. I am capable of
+                          designing, developing, and maintaining websites
+                          effectively. The certificate also confirms my
+                          understanding of programming languages, responsive
+                          design, performance optimization, and fundamental
+                          security aspects within the realm of web development.
+                        </p>
+
+                        <p>
+                          The certificate is valid until October 2025, giving me
+                          a designated period to continue practicing and
+                          refining my skills in this ever-evolving industry. It
+                          demonstrates my commitment to education and personal
+                          development, as well as my ability to adapt to the
+                          latest technological advancements and trends in the
+                          field of web development.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="mt-3 mt-lg-0 mt-sm-3">
+                  <div><p class="fw-bold text-center">Somes Project</p></div>
+                  <div>
+                    <p class="text-center">
+                      These are some of my recent projects
+                    </p>
+                  </div>
+                  <div class="box-project w-auto">
+                    <div class="project">
+                      <img src="/img/images/design/Sultra.png" alt="" />
+                      <div
+                        class="title-box w-100 position-absolute bottom-0 start-0 z-1"
+                      ></div>
+                      <div class="judul">
+                        <p class="fw-bold">Sultra Destination</p>
+                        <p>
+                          Discover the allure of Southeast Sulawesi through our
+                          website, Sultra Destination. Immerse in captivating
+                          visuals and stay updated with insights about regional
+                          attractions, cultural richness, and travel highlights.
+                          Embark on an exploration with Sultra Destination and
+                          unlock the treasures of Southeast Sulawesi.
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="project">
+                      <img src="/img/images/design/outer_space.png" alt="" />
+                      <div
+                        class="title-box w-100 position-absolute bottom-0 start-0 z-1"
+                      ></div>
+                      <div class="judul">
+                        <p class="fw-bold">Outer Space</p>
+                        <p>
+                          Explore the mysteries of outer space on our website.
+                          Experience breathtaking images and the latest insights
+                          about celestial wonders, planets, and beyond. Embark
+                          on a cosmic journey with Outer Space.
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="project">
+                      <img src="/img/images/design/SMART.png" alt="" />
+                      <div
+                        class="title-box w-100 position-absolute bottom-0 start-0 z-1"
+                      ></div>
+                      <div class="judul">
+                        <p class="fw-bold">SMART</p>
+                        <p>
+                          SMART is an SAW-based Decision Support System app
+                          tailored for student assessment and ranking. It
+                          facilitates efficient evaluation, offering insights
+                          into individual performance for informed
+                          decision-making. Streamline academic choices with
+                          SMART's intuitive interface, aiding educators in
+                          data-driven student evaluations.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-center p-3">
+                    <a class="btn">See More!</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Template -->
+            <div
+              class="container-in container mt-5 mt-lg-0 mt-sm-5"
+              style="font-family: 'Inter'"
+              id="template"
+            >
+              <div class="w-100">
+                <div class="text-center">
+                  <p class="fs-5 fw-bold">Template</p>
+                </div>
+                <div>
+                  <p class="text-center">Several templates that you can use</p>
+                </div>
+                <div class="container-template w-100">
+                  <div class="template">
+                    <img src="/img/images/template/card_profil_1.png" alt="" />
+                    <div class="title-box position-absolute top-0 container">
+                      <div class="py-lg-4" style="font-family: 'Inter'">
+                        <p class="fs-4 fw-bolder text-white">Card Profil</p>
+                        <p
+                          class="text-white"
+                          style="text-align: justify; font-size: 13px"
+                        >
+                          A creative Profil Card template featuring photo, name,
+                          title, contact, and social media. Clean design with
+                          clear layout, showcasing self-summary, recent
+                          achievements, and key statistics. Harmonious color
+                          combination creates a professional and appealing
+                          impression, suitable for portfolios or social media.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="template">
+                    <img src="/img/images/template/card_profil_2.png" alt="" />
+                    <div class="title-box position-absolute top-0 container">
+                      <div class="py-lg-4" style="font-family: 'Inter'">
+                        <p class="fs-4 fw-bolder text-white">Card Profil</p>
+                        <p
+                          class="text-white"
+                          style="text-align: justify; font-size: 13px"
+                        >
+                          A creative Profil Card template featuring photo, name,
+                          title, contact, and social media. Clean design with
+                          clear layout, showcasing self-summary, recent
+                          achievements, and key statistics. Harmonious color
+                          combination creates a professional and appealing
+                          impression, suitable for portfolios or social media.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="d-flex justify-content-center p-3">
+                  <a class="btn">See More!</a>
+                </div>
+              </div>
+            </div>
+            <!-- Contact -->
+            <div
+              class="container-in container mt-5 mt-lg-0 mt-sm-5"
+              style="font-family: 'Inter'"
+              id="contact"
+            >
+              <div class="text-center">
+                <p class="fs-5 fw-bold">Contact</p>
+              </div>
+              <div>
+                <p class="text-center">
+                  If you want to work together, fill out the form below
+                </p>
+              </div>
+              <div class="d-lg-flex w-100 gap-3">
+                <div class="bx-contact-1">
+                  <div><p class="fw-bold">Get In Touch</p></div>
+                  <div>
+                    <div class="form">
+                      <form
+                        action="https://docs.google.com/forms/d/e/1FAIpQLSdm2Qki3k3Gi2w3ufLqLN-hMqoBh6FjZSdF46InPs-OKUzfug/formResponse"
+                        method="post"
+                      >
+                        <div class="container_form">
+                          <div class="mt-1">
+                            <div>
+                              <input
+                                class="form-control"
+                                type="text"
+                                placeholder="Your Name"
+                                name="entry.738810276"
+                              />
+                            </div>
+                          </div>
+
+                          <div class="mt-1">
+                            <div>
+                              <input
+                                class="form-control"
+                                type="email"
+                                name="entry.504316454"
+                                id="email"
+                                placeholder="Your Email Adress..."
+                                required
+                              />
+                            </div>
+                          </div>
+                          <div class="mt-1">
+                            <div>
+                              <input
+                                class="form-control"
+                                class=""
+                                type="text"
+                                name="entry.1791132579"
+                                id="phone"
+                                placeholder="Your Phone"
+                                required
+                              />
+                            </div>
+                          </div>
+                          <div class="mt-1">
+                            <div>
+                              <textarea
+                                class="form-control"
+                                name="entry.625391528"
+                                id=""
+                                cols="30"
+                                rows="10"
+                                placeholder="Message"
+                                id="textarea"
+                              ></textarea>
+                            </div>
+                            <p id="len"></p>
+                          </div>
+                          <div>
+                            <input
+                              class="btn"
+                              type="submit"
+                              value="Send Message"
+                              class="submit"
+                            />
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+                <div class="bx-contact-2 mt-5 mt-lg-0 mt-md-5">
+                  <div class="details_contact h-100">
+                    <div class="bx_details h-100">
+                      <p class="h-100">
+                        <iframe
+                          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.942710592385!2d122.49219181475989!3d-4.032112597067824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d988d9d21e764ff%3A0x92b030265f00f813!2sBTN%20Baruga%20Nusantara!5e0!3m2!1sen!2sid!4v1678708728275!5m2!1sen!2sid"
+                          width="100%"
+                          height="100%"
+                          style="min-height: 300px"
+                          style="border: 0"
+                          allowfullscreen=""
+                          loading="lazy"
+                          referrerpolicy="no-referrer-when-downgrade"
+                        ></iframe>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="mt-3 container-footer blur"
+              style="font-family: 'Inter'"
+            >
+              <div class="container d-lg-flex pt-lg-5 pb-lg-5 p-1">
+                <div class="p-lg-1 bx-1-footer">
+                  <div>
+                    <p class="fw-bold fs-5 text-white">
+                      <img src="assets/logo/logo.svg" alt="" /> &nbsp; FADLICODE
+                    </p>
+                    <p class="text-white">
+                      Design © Fadlicode | Crafting Digital Experiences with
+                      Passion
+                    </p>
+                  </div>
+                </div>
+                <div class="p-lg-1 text-white bx-2-footer row">
+                  <div class="col-auto">
+                    <p class="fs-5 fw-bolder">Links</p>
+
+                    <ul class="list-unstyled">
+                      <li>Home</li>
+                      <li>About Me</li>
+                      <li>Services</li>
+                      <li>Portofolio</li>
+                      <li>Template</li>
+                      <li>Contact</li>
+                    </ul>
+                  </div>
+                  <div class="col-auto">
+                    <p class="fs-5 fw-bolder">Services</p>
+
+                    <ul class="list-unstyled">
+                      <li>Web Developer</li>
+                      <li>Web Design</li>
+                      <li>Debugger</li>
+                    </ul>
+                  </div>
+                  <div class="col-auto">
+                    <div class="bx_details">
+                      <p class="fw-bold fs-5">Details Contacts</p>
+                      <p>
+                        <span
+                          ><i class="fa-solid fa-envelope"></i> &nbsp;
+                          fadlimuham809@gmail.com
+                        </span>
+                        <br />
+                        <span
+                          ><i class="fa-solid fa-phone"></i> &nbsp;+62 813 4395
+                          5979</span
+                        >
+                        <br />
+                        <span
+                          ><i class="fa-solid fa-location-dot"></i> &nbsp;
+                          Kendari, Indonesia</span
+                        >
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-auto">
+                    <p class="fw-bold fs-5">Social Media</p>
+                    <span class="fs-2">
+                      <span
+                        ><a
+                          class="text-white"
+                          href="https://github.com/muhamadfad"
+                          ><i class="fa-brands fa-square-instagram"></i></a
+                      ></span>
+                      &nbsp;
+                      <span
+                        ><a
+                          class="text-white"
+                          href="https://www.linkedin.com/in/muhamad-fadli-8b9385258/"
+                          ><i class="fa-brands fa-linkedin"></i></a
+                      ></span>
+                      &nbsp;
+                      <span><i class="fa-brands fa-facebook"></i></span> &nbsp;
+                      <span
+                        ><a
+                          class="text-white"
+                          href="https://github.com/muhamadfad"
+                          ><i class="fa-brands fa-square-github"></i></a
+                      ></span>
+                      &nbsp;
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://kit.fontawesome.com/be93d0f458.js"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+    crossorigin="anonymous"
+  ></script>
+  <script src="/app/style.js"></script>
+</html>
